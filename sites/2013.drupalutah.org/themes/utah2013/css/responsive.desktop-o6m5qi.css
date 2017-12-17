@@ -1,0 +1,6 @@
+/* Important Information about this CSS File  - Do not delete or rename this file, if you do not use it leave it blank (delete everything) and the file will be skipped when you enable Production Mode in the Global theme settings.  - Read the _README file in this directory, it contains useful help and other information. */
+/* Logo */
+#logo { padding: 10px 0; float: left; font-size: 60px; }
+#logo img { vertical-align: bottom; }
+
+#name-and-slogan { margin: 30px 0 0 10px; }
