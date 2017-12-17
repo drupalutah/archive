@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://2014.drupalutah.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal Camp Utah - Drupal Business</title>
+ <link>http://2014.drupalutah.org/track/drupal-business</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>PROJECT PLANNING: OBVIOUS OR OBSCURE?</title>
+ <link>http://2014.drupalutah.org/sessions/project-planning-obvious-or-obscure</link>
+ <description>&lt;div class=&quot;field field--name-submitted-by field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;Submitted by &lt;a href=&quot;/users/mwigdahl&quot; title=&quot;View user profile.&quot; class=&quot;username&quot; xml:lang=&quot;&quot; about=&quot;/users/mwigdahl&quot; typeof=&quot;sioc:UserAccount&quot; property=&quot;foaf:name&quot; datatype=&quot;&quot;&gt;mwigdahl&lt;/a&gt; on Jul 25, 2014.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-body field--type-text-with-summary field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;When starting a new project in Drupal the planning and execution can be a maze of misleading false hopes and dead ends. Learn ways to avoid making those costly mistakes and ensure you are profitable.&lt;/p&gt;
+&lt;p&gt;Websites are quickly becoming more complicated than they were in the pre-smartphone era. Has your process adapted? With rising ambitions from clients are you able to manage their expectations? What do you do when you reach unchartered waters within your company?These are just some of the challenges development shops face today.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-track field--type-taxonomy-term-reference field--label-above track-drupal-business&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Track:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/track/drupal-business&quot;&gt;Drupal Business&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-experience-level field--type-taxonomy-term-reference field--label-above level-intermediate&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Experience Level:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/2&quot;&gt;Intermediate&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-rate-integration-2 field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;div class=&quot;rate-widget-2 rate-widget clear-block rate-user rate-widget-thumbs_up rate-f15f9da0ba3986ca5cba13c6b393e90d rate-node-48-2-1&quot; id=&quot;rate-node-48-2-1&quot;&gt;&lt;a class=&quot;rate-button rate-thumbs-up-btn-up&quot; id=&quot;rate-button-1&quot; rel=&quot;nofollow&quot; href=&quot;/taxonomy/term/4/feed?rate=HZVY8dlV8WH_63DnGMi7xmR4M_zObgsIO0zBOHxalYY&quot; title=&quot;up&quot;&gt;up&lt;/a&gt;&lt;div class=&quot;rate-info&quot;&gt;0 users have voted.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 25 Jul 2014 20:27:29 +0000</pubDate>
+ <dc:creator>mwigdahl</dc:creator>
+ <guid isPermaLink="false">48 at http://2014.drupalutah.org</guid>
+ <comments>http://2014.drupalutah.org/sessions/project-planning-obvious-or-obscure#comments</comments>
+</item>
+</channel>
+</rss>

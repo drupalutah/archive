@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://2014.drupalutah.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal Camp Utah - Frontend</title>
+ <link>http://2014.drupalutah.org/track/frontend</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>The State of Front End Development [Discussion]</title>
+ <link>http://2014.drupalutah.org/sessions/state-front-end-development-discussion</link>
+ <description>&lt;div class=&quot;field field--name-submitted-by field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;Submitted by &lt;a href=&quot;/users/jeremyr&quot; title=&quot;View user profile.&quot; class=&quot;username&quot; xml:lang=&quot;&quot; about=&quot;/users/jeremyr&quot; typeof=&quot;sioc:UserAccount&quot; property=&quot;foaf:name&quot; datatype=&quot;&quot;&gt;JeremyR&lt;/a&gt; on Jul 22, 2014.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-body field--type-text-with-summary field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Group discussion on where front end development has come from and where it&#039;s going. Let&#039;s talk about the good and bad of the rapid change in our industry and what we can do to better prepare ourselves for the future. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-track field--type-taxonomy-term-reference field--label-above track-frontend&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Track:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/track/frontend&quot;&gt;Frontend&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-experience-level field--type-taxonomy-term-reference field--label-above level-beginner&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Experience Level:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/1&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-rate-integration-2 field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;div class=&quot;rate-widget-2 rate-widget clear-block rate-user rate-widget-thumbs_up rate-5a3be69c61ba324d901327b7d5503f7c rate-node-43-2-1&quot; id=&quot;rate-node-43-2-1&quot;&gt;&lt;a class=&quot;rate-button rate-thumbs-up-btn-up&quot; id=&quot;rate-button-1&quot; rel=&quot;nofollow&quot; href=&quot;/taxonomy/term/7/feed?rate=-dTp6Xn8K75IJ_HWQ_rRjyIq1oVa5-yoCDaMxaFBdTU&quot; title=&quot;up&quot;&gt;up&lt;/a&gt;&lt;div class=&quot;rate-info&quot;&gt;0 users have voted.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 23 Jul 2014 01:28:57 +0000</pubDate>
+ <dc:creator>JeremyR</dc:creator>
+ <guid isPermaLink="false">43 at http://2014.drupalutah.org</guid>
+ <comments>http://2014.drupalutah.org/sessions/state-front-end-development-discussion#comments</comments>
+</item>
+</channel>
+</rss>

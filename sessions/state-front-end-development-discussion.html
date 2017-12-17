@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="apple-touch-icon-precomposed" href="../sites/all/themes/omega/omega/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="../sites/all/themes/omega/omega/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" href="../sites/all/themes/omega/omega/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="../sites/all/themes/omega/omega/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="canonical" href="state-front-end-development-discussion.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="../node/43.html" />
+<link rel="shortcut icon" href="../sites/2014.drupalutah.org/themes/dcu14/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <title>The State of Front End Development [Discussion] | Drupal Camp Utah</title>
+  <link type="text/css" rel="stylesheet" href="../sites/2014.drupalutah.org/files/css/css_jCxZqGGeNUip9G_et_at5gTfevyjQlD1L7lTiLG2t7c.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/2014.drupalutah.org/files/css/css_VKdWXi4ap1bh-d1LdxImhzO-G4BOd_5N3HCCC_C4ze8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/2014.drupalutah.org/files/css/css_WmIOp6U3Fdz4vkp2rf1IcprVT9wJ1raEpKMZ6N0dXwk.css" media="all" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://2014.drupalutah.org/sites/2014.drupalutah.org/files/css/css_nrEyabdHUZpX9sbfs4tfxTDMZoEUnakbIC1irQ3zyN8.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="../sites/2014.drupalutah.org/files/css/css_De4JuApsBqmL1cdV2Kwy7O3hXfq0tL9-bqgiYvBfJg8.css" media="all" />
+  <script src="../sites/2014.drupalutah.org/files/js/js_SxeLvWBoglNCcE5r-dJPQ_8RbL6spoIYsRXBtkLW0k4.js"></script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="http://2014.drupalutah.org/sites/2014.drupalutah.org/files/js/js_XC8dNx_jPgRtqQQIyfljU-ISp6itWLN3-BrCnd-o0Ks.js"></script>
+<![endif]-->
+<script src="../sites/2014.drupalutah.org/files/js/js_tfRe421cMV2qHKArnoohnjFWyIa1P2O3HUvsNvKCxuQ.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-41420764-2", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="../sites/2014.drupalutah.org/files/js/js_D3gaWDovdngGvy7Ar8cOr5P3FJZDJ4dJMGHTZV2zNIY.js"></script>
+<script src="../sites/2014.drupalutah.org/files/js/js_I8emwpYVPmmWK9QxevrGAd36g5BwkbnYjPt2Lt6OmUw.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","rate":{"basePath":"\/rate\/vote\/js","destination":"node\/43"},"responsive_menus":[{"selectors":["#block-superfish-1 .block__content"],"trigger_txt":"Menu","side":"right","speed":"200","media_size":"703","displace":"1","onOpen":"","onClose":"","responsive_menus_style":"sidr"}],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"superfish":{"1":{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":true,"dropShadows":true,"disableHI":false},"plugins":{"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"12","extraWidth":1}}}}});</script>
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-43 node-type-session section-sessions">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page has-one-sidebar has-sidebar-second">
+  <header class="l-header" role="banner">
+    <div class="l-branding">
+              <a href="../index.html" title="Home" rel="home" class="site-logo"><img src="../sites/2014.drupalutah.org/themes/dcu14/logo.png" alt="Home" /></a>
+      
+                        <h1 class="site-name">
+            <a href="../index.html" title="Home" rel="home"><span>Drupal Camp Utah</span></a>
+          </h1>
+        
+              
+          </div>
+
+      <div class="l-region l-region--header">
+    <nav id="block-system-user-menu" role="navigation" class="block block--system block--menu block--system-user-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="../user/login.html" title="">Login</a></li>
+<li class="last leaf"><a href="../cart.html" title="">Cart</a></li>
+</ul></nav>
+<div id="block-block-4" class="block block--block block--block-4">
+        <div class="block__content">
+    <p>Mark your calendar! - <strong>August 15th, 2014</strong></p>
+  </div>
+</div>
+  </div>
+      <div class="l-region l-region--navigation">
+    <div id="block-superfish-1" class="block block--superfish block--superfish-1">
+        <div class="block__content">
+    <ul id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-5 sf-parent-items-2 sf-single-items-3"><li id="menu-866-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="../conference.html" class="sf-depth-1 menuparent">Conference</a><ul><li id="menu-867-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../conference.html" title="" class="sf-depth-2">About</a></li><li id="menu-797-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../tickets.html" class="sf-depth-2">Tickets</a></li><li id="menu-868-1" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="../location.html" class="sf-depth-2">Location</a></li></ul></li><li id="menu-781-1" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="../sessions.html" class="sf-depth-1">Sessions</a></li><li id="menu-796-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="../sponsors.html" class="sf-depth-1 menuparent">Sponsors</a><ul><li id="menu-895-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../sponsors.html" title="" class="sf-depth-2">Sponsors</a></li><li id="menu-845-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="../sponsors/become-sponsor.html" class="sf-depth-2">Become a Sponsor</a></li></ul></li><li id="menu-1236-1" class="middle even sf-item-4 sf-depth-1 sf-no-children"><a href="../community.html" class="sf-depth-1">Community</a></li><li id="menu-2098-1" class="last odd sf-item-5 sf-depth-1 sf-no-children"><a href="../schedule.html" class="sf-depth-1">Schedule</a></li></ul>  </div>
+</div>
+  </div>
+  </header>
+	  <div class="l-main">
+    <div class="l-content" role="main">
+                  <a id="main-content"></a>
+                    <h1 class="title">The State of Front End Development [Discussion]</h1>
+                                          <div  about="/sessions/state-front-end-development-discussion" typeof="sioc:Item foaf:Document" class="ds-3col-stacked-fluid node node--session view-mode-full node--full node--session--full group-one-sidebar group-sidebar-right clearfix">
+
+  
+  <div class="group-header">
+    <div class="field field--name-submitted-by field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even">Submitted by <a href="../users/jeremyr.html" title="View user profile." class="username" xml:lang="" about="/users/jeremyr" typeof="sioc:UserAccount" property="foaf:name" datatype="">JeremyR</a> on Jul 22, 2014.</div></div></div>  </div>
+
+  
+      <div class="group-middle">
+      <div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Group discussion on where front end development has come from and where it's going. Let's talk about the good and bad of the rapid change in our industry and what we can do to better prepare ourselves for the future. </p>
+</div></div></div>    </div>
+  
+      <div class="group-right">
+      <div class="field field--name-field-track field--type-taxonomy-term-reference field--label-above track-frontend"><div class="field__label">Track:&nbsp;</div><div class="field__items"><div class="field__item even"><a href="../track/frontend.html">Frontend</a></div></div></div><div class="field field--name-field-experience-level field--type-taxonomy-term-reference field--label-above level-beginner"><div class="field__label">Experience Level:&nbsp;</div><div class="field__items"><div class="field__item even"><a href="../taxonomy/term/1.html">Beginner</a></div></div></div><div class="field field--name-rate-integration-2 field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><div class="rate-widget-2 rate-widget clear-block rate-user rate-widget-thumbs_up rate-5a3be69c61ba324d901327b7d5503f7c rate-node-43-2-1" id="rate-node-43-2-1"><a class="rate-button rate-thumbs-up-btn-up" id="rate-button-1" rel="nofollow" href="../user/login-to-rate-destination=node-43.html" title="up">up</a><div class="rate-info">0 users have voted.</div></div></div></div></div>    </div>
+  
+  <div class="group-footer">
+    <section id="comments" class="comment-wrapper comments">
+          <h2 class="comments__title">Comments</h2>
+      
+  <a id="comment-10"></a>
+<div  about="/comment/10#comment-10" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/dinahaines.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="DinaHaines&#039;s picture" title="DinaHaines&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/dinahaines.html" title="View user profile." class="username" xml:lang="" about="/users/dinahaines" typeof="sioc:UserAccount" property="foaf:name" datatype="">DinaHaines</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/10.html#comment-10" class="permalink" rel="bookmark">A paper writing is a long</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>A paper writing is a long process. A good start is half the battle! Therefore it is important that work is done in steps.<br />
+The best way to create the structure of an essay by writing an 'outline'. An outline is a miniature version of your essay, written in numbered individual phrases or keywords. An essay has always been the basic structure of introduction, body and conclusion. <a href="http://www.traditionessaysonline.com/">Custom essay writing service</a> is a valuable option for the students who are facing bad time with writing their essay paper.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-31"></a>
+<div  about="/comment/31#comment-31" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/melanie-cullen.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="Melanie Cullen&#039;s picture" title="Melanie Cullen&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/melanie-cullen.html" title="View user profile." class="username" xml:lang="" about="/users/melanie-cullen" typeof="sioc:UserAccount" property="foaf:name" datatype="">Melanie Cullen</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/31.html#comment-31" class="permalink" rel="bookmark">Interesting</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Group discussions are great cause they help to come to the right decision! if you need <a href="http://elearninginfographics.com/4-gamification-design-mistakes-avoid-infographic/">help with essay</a>, it is better to ask your friends for a piece of advice or to ask the professional writers!=)</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-39"></a>
+<div  about="/comment/39#comment-39" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/maryann-j-bos.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="Maryann J. Bos&#039;s picture" title="Maryann J. Bos&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/maryann-j-bos.html" title="View user profile." class="username" xml:lang="" about="/users/maryann-j-bos" typeof="sioc:UserAccount" property="foaf:name" datatype="">Maryann J. Bos</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/39.html#comment-39" class="permalink" rel="bookmark">Your article is http://www</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Your article is <a href="http://www.derdualstudent.de/top-10-tipps-um-eine-perfekte-bachelorarbeit-zu-schreiben.html">http://www.derdualstudent.de/top-10-tipps-um-eine-perfekte-bachelorarbei...</a> extremely helpful exceptionally fascinating subject i am looking that sort of post thank for imparting to us keep it up.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-42"></a>
+<div  about="/comment/42#comment-42" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/allendavid.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="allendavid&#039;s picture" title="allendavid&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/allendavid.html" title="View user profile." class="username" xml:lang="" about="/users/allendavid" typeof="sioc:UserAccount" property="foaf:name" datatype="">allendavid</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/42.html#comment-42" class="permalink" rel="bookmark">Web bunch and Browser in</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Web bunch and Browser in addition can perform the homework of an errand messenger, however here they're in an exchange section since they're chiefly known as module bundlers. <a href="http://www.helpinessays.com/someone-write-my-essay.html">Pay for Essay Writing</a> Module packagings resemble a construct procedure in which a congregation of modules and their setting get packaged into a record, or assembly of documents.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-46"></a>
+<div  about="/comment/46#comment-46" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/andrewwood.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="AndrewWood&#039;s picture" title="AndrewWood&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/andrewwood.html" title="View user profile." class="username" xml:lang="" about="/users/andrewwood" typeof="sioc:UserAccount" property="foaf:name" datatype="">AndrewWood</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/46.html#comment-46" class="permalink" rel="bookmark">RE:</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Web advancement can resemble the wild west with such a variety of choices. This post makes an extraordinary showing with regards to of subduing the ferocity. Would love to see CoffeeScript and Typescript broken out. They are truly transpilers, <a href="http://www.assignmentempire.co.uk/buy-assignment">buy assignment online</a> I assume Typescript is more well known than Script, yet who knows.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-48"></a>
+<div  about="/comment/48#comment-48" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/richardx.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="richardx&#039;s picture" title="richardx&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/richardx.html" title="View user profile." class="username" xml:lang="" about="/users/richardx" typeof="sioc:UserAccount" property="foaf:name" datatype="">richardx</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/48.html#comment-48" class="permalink" rel="bookmark">THE STATE OF FRONT END DEVELOPMENT</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>I am somewhat qualified however. Beside running this site which expects me to consider front end development consistently and opens me to heaps of <a href="http://www.assignmentcorp.co.uk/">Do My Assignment</a> conversations about front end development, I am a dynamic developer myself.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-49"></a>
+<div  about="/comment/49#comment-49" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/johnmartin.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="Johnmartin&#039;s picture" title="Johnmartin&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/johnmartin.html" title="View user profile." class="username" xml:lang="" about="/users/johnmartin" typeof="sioc:UserAccount" property="foaf:name" datatype="">Johnmartin</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/49.html#comment-49" class="permalink" rel="bookmark">Do My Homework Cheap</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Students from colleges and schools think that it’s conceivable to purchase scholastic papers on the web, and they thoroughly consider their battle is. Sadly, a large number of them fall in the hands of untrustworthy custom administrations. We will dole out a knowledgeable author who will <a href="http://www.buyassignmentservice.com/pay-to-do-my-homework">Do My Homework Cheap</a> consider your direction and finish the substance that meets your necessities. Nobody will know you didn't compose!</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-55"></a>
+<div  about="/comment/55#comment-55" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/jessicamameth.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="JessicaMameth&#039;s picture" title="JessicaMameth&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/jessicamameth.html" title="View user profile." class="username" xml:lang="" about="/users/jessicamameth" typeof="sioc:UserAccount" property="foaf:name" datatype="">JessicaMameth</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/55.html#comment-55" class="permalink" rel="bookmark">Front End Development</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Well, I personally am in favor of Front End Development. I mentioned it too in one of the conferences that there's an increased demand for front-end development, which shows how we have improved in the basic and fundamental way. <a href="http://realassignmenthelp.co.uk/">Assignment Service in UK</a> mentioned it too, in one of his assignment so I personally am in favor of front-end development.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-58"></a>
+<div  about="/comment/58#comment-58" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/helenkl.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="Helenkl&#039;s picture" title="Helenkl&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/helenkl.html" title="View user profile." class="username" xml:lang="" about="/users/helenkl" typeof="sioc:UserAccount" property="foaf:name" datatype="">Helenkl</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/58.html#comment-58" class="permalink" rel="bookmark">Web progression can look like</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Web progression can look like the wild west with such an assortment of decisions. This post makes an uncommon appearing concerning of curbing the savagery. Would love to see CoffeeScript and Typescript broken out. They are genuinely transpilers, I accept Typescript is more outstanding than Script, <a href="https://www.readyassignment.co.uk/">assignment writing service</a>, yet who knows. Module packagings take after a develop method in which an assemblage of modules and their setting get bundled into a record, or get together of reports.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-65"></a>
+<div  about="/comment/65#comment-65" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/robertjack.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="robertjack&#039;s picture" title="robertjack&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/robertjack.html" title="View user profile." class="username" xml:lang="" about="/users/robertjack" typeof="sioc:UserAccount" property="foaf:name" datatype="">robertjack</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/65.html#comment-65" class="permalink" rel="bookmark">Education</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Development is the important rudiments needed in your fonts that <a href="http://www.trueassignmenthelp.co.uk">Assignment Services</a> alteration and stretch over the plot. It is all you can think of from what kind of clothes.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-98"></a>
+<div  about="/comment/98#comment-98" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/davidcyryl.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="DavidCyryl&#039;s picture" title="DavidCyryl&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/davidcyryl.html" title="View user profile." class="username" xml:lang="" about="/users/davidcyryl" typeof="sioc:UserAccount" property="foaf:name" datatype="">DavidCyryl</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/98.html#comment-98" class="permalink" rel="bookmark">This bit of the ABDs experience</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>This bit of the ABDs experience can be disappointing as the way toward social occasion, perusing, and choosing significant sections for incorporation can be dreary and delayed. I appreciated this procedure of finding out about my theme since I believed I found a point that few had contemplated or expounded on and I was exceptionally inspired by my subject. <a href="https://www.theacademicpapers.co.uk/dissertation-proposal-writing-service.php">Dissertation Proposal Writing Service</a></p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-102"></a>
+<div  about="/comment/102#comment-102" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/matthewwade.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="matthewwade&#039;s picture" title="matthewwade&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/matthewwade.html" title="View user profile." class="username" xml:lang="" about="/users/matthewwade" typeof="sioc:UserAccount" property="foaf:name" datatype="">matthewwade</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/102.html#comment-102" class="permalink" rel="bookmark">THANKS</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>tudents from universities and schools feel that it's possible to buy educational papers on the web, and they altogether consider their fight is. Tragically, an extensive number of them fall in the hands of conniving custom organizations. We will dole out a proficient creator who will <a href="https://www.courseworklounge.co.uk/write-my-coursework">Write my Coursework for me</a>  consider your course and complete the substance that meets your necessities. No one will know you didn't form!</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-141"></a>
+<div  about="/comment/141#comment-141" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/alizeyjohn.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="alizeyjohn&#039;s picture" title="alizeyjohn&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/alizeyjohn.html" title="View user profile." class="username" xml:lang="" about="/users/alizeyjohn" typeof="sioc:UserAccount" property="foaf:name" datatype="">alizeyjohn</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/141.html#comment-141" class="permalink" rel="bookmark">ReadyAssignmentHelp</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Web group and Browser, what's more, can play out the homework of an errand courier, however here they're in a trade area since they're essentially known as module bundlers. Pay for Essay Writing Module packagings look like <a href="http://www.readyassignmenthelp.co.uk/">Assignment Writing Service</a> a developing system in which a gathering of modules and their setting get bundled into a record, or get together of archives.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-142"></a>
+<div  about="/comment/142#comment-142" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/peterkevinn1987.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="peterkevinn1987&#039;s picture" title="peterkevinn1987&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/peterkevinn1987.html" title="View user profile." class="username" xml:lang="" about="/users/peterkevinn1987" typeof="sioc:UserAccount" property="foaf:name" datatype="">peterkevinn1987</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/142.html#comment-142" class="permalink" rel="bookmark">6 Dollar Essay</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>This is a champion a few of the maximum illuminating and instructive <a href="https://www.6dollaressay.com/">6 Dollar Essay</a> submit. honestly, I'm looking this type of material. Appreciative to you such a stunning combination for sharing this submit.</p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-185"></a>
+<div  about="/comment/185#comment-185" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/katieledden.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="Katieledden&#039;s picture" title="Katieledden&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/katieledden.html" title="View user profile." class="username" xml:lang="" about="/users/katieledden" typeof="sioc:UserAccount" property="foaf:name" datatype="">Katieledden</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/185.html#comment-185" class="permalink" rel="bookmark">This was an extraordinary</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>This was an extraordinary review of frontend advancement! I've been doing frontend advancement for around 4 years, and you made a decent showing with regards to separating the diverse parts.</p>
+<p>Submitted by: <a href="https://www.courseworkpoint.co.uk/">University coursework help</a></p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+<a id="comment-199"></a>
+<div  about="/comment/199#comment-199" typeof="sioc:Post sioct:Comment" class="ds-3col-stacked-fluid comment view-mode-full group-one-sidebar group-sidebar-left clearfix">
+
+  
+  <div class="group-header">
+      </div>
+
+      <div class="group-left">
+      <div class="field field--name-ds-user-picture field--type-ds field--label-hidden"><div class="field__items"><div class="field__item even"><a href="../users/blackmen.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/pictures/druplicon_gray-itok=Jr1-jQ7x.png" alt="BlackMen&#039;s picture" title="BlackMen&#039;s picture" /></a></div></div></div><span rel="sioc:has_creator"><span rel="sioc:has_creator"><a href="../users/blackmen.html" title="View user profile." class="username" xml:lang="" about="/users/blackmen" typeof="sioc:UserAccount" property="foaf:name" datatype="">BlackMen</a></span></span>    </div>
+  
+      <div class="group-middle">
+      <a href="../comment/199.html#comment-199" class="permalink" rel="bookmark">BachJohann</a><div class="field field--name-comment-body field--type-text-long field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Very interesting blog. Alot of blogs I see these days don't really provide anything that I'm interested in, but I'm most definately interested in this one. Just thought that I would post and let you know.	<a href="http://www.cometpartyrentals.com">bounce house rentals katy</a></p>
+</div></div></div>    </div>
+  
+  
+  <div class="group-footer">
+      </div>
+
+</div>
+
+
+  </section>
+  </div>
+
+</div>
+
+          </div>
+
+          <aside class="l-region l-region--sidebar-second">
+    <div id="block-block-6" class="block block--block block--block-6">
+        <div class="block__content">
+    <p><a href="../node/1.html">Get your ticket now!</a></p>
+  </div>
+</div>
+<div id="block-views-sponsors-block" class="block block--views block--views-sponsors-block">
+        <h2 class="block__title">Sponsors</h2>
+      <div class="block__content">
+    <div class="view view-sponsors view-id-sponsors view-display-id-block view-dom-id-a451864b4fa36ca3c219bb35eb9a9040">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/pantheon.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/PantheonFistBanner_1-itok=GVAnikdL.png" width="100" height="33" alt="Pantheon" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/western-governors-university.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/wgu_logo-itok=tJU4o0_j.png" width="100" height="100" alt="Western Governors University" /></a></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/lingotek.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/lingotek_logo-itok=RKv6AJp9.png" width="100" height="24" alt="LingoTek" /></a></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/straight-north-llc.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/straightnorth-logo-itok=lo9H-lAA.jpg" width="100" height="38" alt="Straight North LLC" /></a></div>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/lever-pulley.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/logo-3-itok=BM7K2umW.png" width="100" height="44" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/digitaria.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/digitaria_logo_black-itok=VlsVelkW.png" width="100" height="28" alt="Digitaria" /></a></div>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/smartrhinolabs.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/srl-logo-itok=czc8vxXx.png" width="100" height="81" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/drupal-association.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/Drupal-Association-itok=Rde7H6jX.png" width="100" height="12" alt="Drupal Association" /></a></div>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/lunar-charc.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/lc_header_logo-itok=sU_6o0K_.png" width="100" height="17" alt="" /></a></div>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="../sponsors/utah-drupal-users-group.html"><img typeof="foaf:Image" src="../sites/2014.drupalutah.org/files/styles/thumbnail/public/dug_logo-itok=ou4V-DEj.png" width="96" height="100" alt="" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="../sponsors.html">
+    View All Sponsors  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </aside>
+  </div>
+
+  <footer class="l-footer" role="contentinfo">
+      <div class="l-region l-region--footer">
+    <div id="block-system-powered-by" role="complementary" class="block block--system block--system-powered-by">
+        <div class="block__content">
+    <span>Powered by <a href="https://www.drupal.org">Drupal</a></span>  </div>
+</div>
+  </div>
+  </footer>
+</div>
+  </body>
+</html>

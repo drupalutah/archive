@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://2014.drupalutah.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Drupal Camp Utah - DevOps</title>
+ <link>http://2014.drupalutah.org/track/devops</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Build Launch Run! Use Pantheon to improve your development process. pt2</title>
+ <link>http://2014.drupalutah.org/sessions/build-launch-run-use-pantheon-improve-your-development-process-pt2</link>
+ <description>&lt;div class=&quot;field field--name-submitted-by field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;Submitted by &lt;a href=&quot;/users/dougvann&quot; title=&quot;View user profile.&quot; class=&quot;username&quot; xml:lang=&quot;&quot; about=&quot;/users/dougvann&quot; typeof=&quot;sioc:UserAccount&quot; property=&quot;foaf:name&quot; datatype=&quot;&quot;&gt;dougvann&lt;/a&gt; on Jul 25, 2014.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-body field--type-text-with-summary field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This is part TWO of a TWO part session.&lt;br /&gt;
+			OK. Let me ask you a question...&lt;br /&gt;
+ 			Q: What good is GIT version control and a 3-STAGE development process if it&#039;s a pain to set up and manage?&lt;br /&gt;
+ 			A: Zero, Zilch NODDA! Because your team can&#039;t use it and if they try it only gets in the way of actually building the project at hand. :-(&lt;/p&gt;
+&lt;p&gt;			Does Dev-Ops have to be that hard?&lt;br /&gt;
+			                                                          NOPE! ;-)&lt;/p&gt;
+&lt;p&gt;			Join me as we take a good, hard look at PANTHEON, the Best Practices, Dev-Ops solution that is taking the Drupal landscape by storm.&lt;br /&gt;
+			What you will not learn:&lt;br /&gt;
+ Jenkins, Linux, Amazon AS3, Varnish, Redis, Server Maintenance, Tuning System files, etc. [PANTHEON manages all that for you!]&lt;br /&gt;
+			What you will learn:&lt;br /&gt;
+ 			How to set up a free, fast, and functional Drupal SandBox on the Pantheon platform&lt;br /&gt;
+ 			How to implement security to keep eyes off of your Dev site&lt;br /&gt;
+ 			How to replciate the Dev site across the Test and Live environments&lt;br /&gt;
+ 			How to copy the code down from Dev to your local machine [With either GIT or SFTP]&lt;br /&gt;
+ 			How to track changes in Dev and deploy them to Test and Live&lt;br /&gt;
+ 			How to synch the database from Live down to Test and Dev&lt;br /&gt;
+ 			How to make sure you&#039;re taking advantage of Varnish [Very Easy To Do!]&lt;br /&gt;
+ 			How to easily cover your but by taking backups &lt;br /&gt;
+ 			How to add Team Members to your Pantheon dashboard&lt;/p&gt;
+&lt;p&gt;			This will be a practical, hands-on experience. Bring your laptop and follow along. &lt;br /&gt;
+Set up your FREE account ahead of time at &lt;a href=&quot;http://GetPantheon.com&quot;&gt;http://GetPantheon.com&lt;/a&gt;&lt;br /&gt;
+			We&#039;ll go at a pace where you can ask questions and keep up!&lt;/p&gt;
+&lt;p&gt;			Questions about this session, dougvann, or Drupal in general? &lt;a href=&quot;http://dougvann.com&quot;&gt;http://dougvann.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-track field--type-taxonomy-term-reference field--label-above track-devops&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Track:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/track/devops&quot;&gt;DevOps&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-experience-level field--type-taxonomy-term-reference field--label-above level-beginner&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Experience Level:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/1&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-rate-integration-2 field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;div class=&quot;rate-widget-2 rate-widget clear-block rate-user rate-widget-thumbs_up rate-cfedf507f94ab5002c12c6b5508e6b97 rate-node-47-2-1&quot; id=&quot;rate-node-47-2-1&quot;&gt;&lt;a class=&quot;rate-button rate-thumbs-up-btn-up&quot; id=&quot;rate-button-1&quot; rel=&quot;nofollow&quot; href=&quot;/taxonomy/term/6/feed?rate=IodDqoPI5KlQQpjgpn-VOGaT_dneQqRWIZhDLJUX1tk&quot; title=&quot;up&quot;&gt;up&lt;/a&gt;&lt;div class=&quot;rate-info&quot;&gt;0 users have voted.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 25 Jul 2014 14:26:46 +0000</pubDate>
+ <dc:creator>dougvann</dc:creator>
+ <guid isPermaLink="false">47 at http://2014.drupalutah.org</guid>
+ <comments>http://2014.drupalutah.org/sessions/build-launch-run-use-pantheon-improve-your-development-process-pt2#comments</comments>
+</item>
+<item>
+ <title>Build Launch Run! Use Pantheon to improve your development process. pt1</title>
+ <link>http://2014.drupalutah.org/sessions/build-launch-run-use-pantheon-improve-your-development-process-pt1</link>
+ <description>&lt;div class=&quot;field field--name-submitted-by field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;Submitted by &lt;a href=&quot;/users/dougvann&quot; title=&quot;View user profile.&quot; class=&quot;username&quot; xml:lang=&quot;&quot; about=&quot;/users/dougvann&quot; typeof=&quot;sioc:UserAccount&quot; property=&quot;foaf:name&quot; datatype=&quot;&quot;&gt;dougvann&lt;/a&gt; on Jul 25, 2014.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-body field--type-text-with-summary field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This is part ONE of a TWO part session.&lt;br /&gt;
+			OK. Let me ask you a question...&lt;br /&gt;
+ 			Q: What good is GIT version control and a 3-STAGE development process if it&#039;s a pain to set up and manage?&lt;br /&gt;
+ 			A: Zero, Zilch NODDA! Because your team can&#039;t use it and if they try it only gets in the way of actually building the project at hand. :-(&lt;/p&gt;
+&lt;p&gt;			Does Dev-Ops have to be that hard?&lt;br /&gt;
+			                                                          NOPE! ;-)&lt;/p&gt;
+&lt;p&gt;			Join me as we take a good, hard look at PANTHEON, the Best Practices, Dev-Ops solution that is taking the Drupal landscape by storm.&lt;br /&gt;
+			What you will not learn:&lt;br /&gt;
+ Jenkins, Linux, Amazon AS3, Varnish, Redis, Server Maintenance, Tuning System files, etc. [PANTHEON manages all that for you!]&lt;br /&gt;
+			What you will learn:&lt;br /&gt;
+ 			How to set up a free, fast, and functional Drupal SandBox on the Pantheon platform&lt;br /&gt;
+ 			How to implement security to keep eyes off of your Dev site&lt;br /&gt;
+ 			How to replciate the Dev site across the Test and Live environments&lt;br /&gt;
+ 			How to copy the code down from Dev to your local machine [With either GIT or SFTP]&lt;br /&gt;
+ 			How to track changes in Dev and deploy them to Test and Live&lt;br /&gt;
+ 			How to synch the database from Live down to Test and Dev&lt;br /&gt;
+ 			How to make sure you&#039;re taking advantage of Varnish [Very Easy To Do!]&lt;br /&gt;
+ 			How to easily cover your but by taking backups &lt;br /&gt;
+ 			How to add Team Members to your Pantheon dashboard&lt;/p&gt;
+&lt;p&gt;			This will be a practical, hands-on experience. Bring your laptop and follow along. &lt;br /&gt;
+Set up your FREE account ahead of time at &lt;a href=&quot;http://GetPantheon.com&quot;&gt;http://GetPantheon.com&lt;/a&gt;&lt;br /&gt;
+			We&#039;ll go at a pace where you can ask questions and keep up!&lt;/p&gt;
+&lt;p&gt;			Questions about this session, dougvann, or Drupal in general? &lt;a href=&quot;http://dougvann.com&quot;&gt;http://dougvann.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-track field--type-taxonomy-term-reference field--label-above track-devops&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Track:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/track/devops&quot;&gt;DevOps&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-field-experience-level field--type-taxonomy-term-reference field--label-above level-beginner&quot;&gt;&lt;div class=&quot;field__label&quot;&gt;Experience Level:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;a href=&quot;/taxonomy/term/1&quot;&gt;Beginner&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field--name-rate-integration-2 field--type-ds field--label-hidden&quot;&gt;&lt;div class=&quot;field__items&quot;&gt;&lt;div class=&quot;field__item even&quot;&gt;&lt;div class=&quot;rate-widget-2 rate-widget clear-block rate-user rate-widget-thumbs_up rate-a966cd3f9eb4a01c891c477b1b9a40fe rate-node-46-2-1&quot; id=&quot;rate-node-46-2-1&quot;&gt;&lt;a class=&quot;rate-button rate-thumbs-up-btn-up&quot; id=&quot;rate-button-2&quot; rel=&quot;nofollow&quot; href=&quot;/taxonomy/term/6/feed?rate=M8x6mRgrKmf5mFLTlRXBXz1-PIUL-z6d2kKjpFhn9Lo&quot; title=&quot;up&quot;&gt;up&lt;/a&gt;&lt;div class=&quot;rate-info&quot;&gt;1 user has voted.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 25 Jul 2014 14:24:28 +0000</pubDate>
+ <dc:creator>dougvann</dc:creator>
+ <guid isPermaLink="false">46 at http://2014.drupalutah.org</guid>
+ <comments>http://2014.drupalutah.org/sessions/build-launch-run-use-pantheon-improve-your-development-process-pt1#comments</comments>
+</item>
+</channel>
+</rss>
